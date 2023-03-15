@@ -7,6 +7,7 @@ import HomeScreen from "./screens/HomeScreen";
 import ProductScreen from "./screens/ProductScreen";
 
 function App() {
+  // const match = useRouteMatch
   return (
     <BrowserRouter>
       <Header />
@@ -22,16 +23,15 @@ function App() {
           </>
         } />
         
-        <Route path="/product/:id" element={
+        <Route path="/product/:id" element={          
           <>
             <main className="py-3">
               <Container>
-                <ProductScreen />
+                <ProductScreen /> 
               </Container>
             </main>
           </>
         } />
-
       </Routes>
 
       <Footer />
