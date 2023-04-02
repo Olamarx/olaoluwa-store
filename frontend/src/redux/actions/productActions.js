@@ -14,7 +14,6 @@ export const listProducts = () => async (dispatch) => {
       :error.message })
   }
 }
-
 export const indProduct = (id) => async (dispatch) => {
   try {
     dispatch({ type: INDIVIDUAL_PRODUCT_REQUEST })
