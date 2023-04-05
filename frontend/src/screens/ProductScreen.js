@@ -8,7 +8,7 @@ import Message from '../components/Message';
 import Loader from '../components/Loader';
 
 const ProductScreen = (props) => {
-const [qty, setQty] = useState(0)
+const [qty, setQty] = useState(1)
 const navigate = useNavigate()
 
   const dispatch = useDispatch()
