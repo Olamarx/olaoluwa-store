@@ -4,7 +4,6 @@ import { Link, useParams, useNavigate, useLocation } from 'react-router-dom'
 import Message from '../components/Message';
 import { Row, Col, ListGroup, Image, Form, Button, Card } from 'react-bootstrap';
 import { addToCart, removeFromCart } from '../redux/actions/cartActions';
-import queryString from 'query-string';
 
 const CartScreen = () => {
   const navigate = useNavigate()
@@ -89,4 +88,4 @@ const CartScreen = () => {
   )
 }
 
-export default CartScreen
+export default CartScreen;
