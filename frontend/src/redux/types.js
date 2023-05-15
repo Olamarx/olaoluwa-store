@@ -18,3 +18,7 @@ export const USER_LOGOUT = 'user/logout';
 export const USER_REGISTER_REQUEST = 'user/register/REQUEST';
 export const USER_REGISTER_SUCCESS = 'user/register/SUCCESS';
 export const USER_REGISTER_FAILED = 'user/resister/FAILED';
+
+export const USER_DETAIL_REQUEST = 'user/detail/REQUEST';
+export const USER_DETAIL_SUCCESS = 'user/detail/SUCCESS';
+export const USER_DETAIL_FAILED = 'user/detail/FAILED';
