@@ -27,3 +27,5 @@ export const USER_UPDATE_PROFILE_REQUEST = 'user/update/profile/REQUEST';
 export const USER_UPDATE_PROFILE_SUCCESS = 'user/update/profile/SUCCESS';
 export const USER_UPDATE_PROFILE_FAILED = 'user/update/profile/FAILED';
 export const USER_UPDATE_PROFILE_RESET = 'user/update/profile/RESET';
+
+export const CART_SAVE_SHIPPING_ADDRESS = 'cart/save/shipping/ADDRESS'
