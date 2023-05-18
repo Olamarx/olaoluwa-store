@@ -27,7 +27,7 @@ const CartScreen = () => {
   }
 
   const checkoutHandler = () => {
-    navigate(`/login?redirect=shipping`)
+    navigate(`/login?redirect=${encodeURIComponent('/shipping')}`)
   }
   return (
     <Row>
