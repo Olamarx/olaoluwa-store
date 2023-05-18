@@ -17,8 +17,9 @@ const LoginScreen = () => {
   const { loading, error, userInfo } = userLogin
 
   const location = useLocation()
-  const redirect = location.search ? location.search.split('=')[1] : '/'
-  
+  const redirect = new URLSearchParams(location.search).get('redirect') || '/shipping'; 
+  console.log(location.search);
+  console.log(redirect);
   useEffect(() => {
     if(userInfo) {
       navigate(redirect)
